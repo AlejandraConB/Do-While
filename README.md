@@ -16,7 +16,8 @@
  - Si se devuelve un valor distinto de cero, generalmente indica un error.
  - El valor return 0; indica que el programa terminó correctamente.
 
-#### 4 Bucle Do-While
+#### 4. Bucle Do-While
+ - Este programa imprime los valores de n desde 15 hasta 1, decreciendo en cada iteración.
  - Primero imprime el valor actual de n.
  - Luego decrementa n en una unidad (n--).
  - Después verifica si n > 0.
@@ -25,7 +26,6 @@
  - A diferencia del while, el do-while evalúa la condición al final.
  - Si la condición es verdadera, vuelve a repetir el ciclo.
  - El bucle termina cuando n llega a 0.
- - Este programa imprime los valores de n desde 15 hasta 1, decreciendo en cada iteración.
  - El bloque  printf("Valor de n: %d\n", n); es un marcador donde va el código a ejecutar.
 
 ## 🖥️ Tecnologías Utilizadas:
