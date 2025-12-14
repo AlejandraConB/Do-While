@@ -14,8 +14,10 @@
  - return 0; indica que el programa terminó correctamente.
  - Si se devuelve un valor distinto de cero, generalmente indica un error.
 
-#### 4 Do While
+#### 4 Do {...} While
+ - El bloque  printf("Valor de n: %d\n", n); es un marcador donde debería ir el código a ejecutar.
  - A diferencia del while, el do-while evalúa la condición al final, garantizando que el bucle se ejecute al menos una vez.
+ - Este programa imprime los valores de n desde 15 hasta 1, decreciendo en cada iteración.
 
 ## 🖥️ Tecnologías Utilizadas:
 
