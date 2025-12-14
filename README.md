@@ -1,6 +1,7 @@
  ##  📌 Descripción
- 
- - Este fragmento de código es un programa básico escrito en lenguaje de programación C, que utiliza una estructura de control do-while para ejecutar un bloque de código repetidamente mientras se cumpla una condición.
+
+ - El programa muestra en pantalla los valores decrecientes de la variable n desde 15 hasta 1, uno por línea, utilizando una estructura de control do-while para ejecutar un bloque de código repetidamente mientras se cumpla una condición.
+ - Este es un ejemplo básico de iteración controlada por contador, útil para ilustrar el uso de bucles que se ejecutan al menos una vez.
 
 ## 🚀 Estructura del Código
 #### 1. #include <stdio.h>
