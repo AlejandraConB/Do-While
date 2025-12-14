@@ -14,13 +14,19 @@
  - Función principal del programa. Es el punto de entrada donde comienza la ejecución. Devuelve un valor entero (int) al sistema operativo al finalizar.
  - return 0; indica que el programa terminó correctamente.
  - Si se devuelve un valor distinto de cero, generalmente indica un error.
+ - El valor return 0; indica que el programa terminó correctamente.
 
-El valor return 0; indica que el programa terminó correctamente.
-
-#### 4 Do {...} While
- - El bloque  printf("Valor de n: %d\n", n); es un marcador donde va el código a ejecutar.
- - A diferencia del while, el do-while evalúa la condición al final, garantizando que el bucle se ejecute al menos una vez.
+#### 4 Bucle Do-While
+ - Primero imprime el valor actual de n.
+ - Luego decrementa n en una unidad (n--).
+ - Después verifica si n > 0.
+ - Si la condición es verdadera, vuelve a repetir el ciclo.
+ - El bucle do-while ejecuta un bloque de código al menos una vez, y luego repite la ejecución mientras la condición especificada sea verdadera.
+ - A diferencia del while, el do-while evalúa la condición al final.
+ - Si la condición es verdadera, vuelve a repetir el ciclo.
+ - El bucle termina cuando n llega a 0.
  - Este programa imprime los valores de n desde 15 hasta 1, decreciendo en cada iteración.
+ - El bloque  printf("Valor de n: %d\n", n); es un marcador donde va el código a ejecutar.
 
 ## 🖥️ Tecnologías Utilizadas:
 
