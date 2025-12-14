@@ -5,15 +5,17 @@
 
 ## 🚀 Estructura del Código
 #### 1. #include <stdio.h>
-  - Esta directiva del preprocesador incluye el archivo de cabecera estándar stdio.h (Standard Input/Output Header), que contiene las declaraciones de funciones para operaciones de entrada y salida como printf() y scanf(). Aunque en este código no se usan directamente, es común incluirlo en programas C para posibilitar futuras operaciones de E/S.
+  - Esta directiva del preprocesador incluye el archivo de cabecera estándar stdio.h (Standard Input/Output Header), que contiene las declaraciones de funciones para operaciones de entrada y salida como printf() y scanf(). Sin esta inclusión, el compilador no reconocería la función printf y generaría un error.
 
 #### 2. int n = 15;
  - Se declara una variable global llamada n de tipo entero (int) y se le asigna el valor inicial 15. Al ser global, puede ser accedida desde cualquier función del programa, incluyendo main().
 
 #### 3. int main()
- - Función principal del programa. Es el punto de entrada ejecutable. Debe devolver un valor entero (int) al sistema operativo:
+ - Función principal del programa. Es el punto de entrada donde comienza la ejecución. Devuelve un valor entero (int) al sistema operativo al finalizar.
  - return 0; indica que el programa terminó correctamente.
  - Si se devuelve un valor distinto de cero, generalmente indica un error.
+
+El valor return 0; indica que el programa terminó correctamente.
 
 #### 4 Do {...} While
  - El bloque  printf("Valor de n: %d\n", n); es un marcador donde va el código a ejecutar.
