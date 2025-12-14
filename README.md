@@ -1,3 +1,11 @@
+ ##  📌 Descripción
+ 
+ - Este fragmento de código es un programa básico escrito en lenguaje de programación C, que utiliza una estructura de control do-while para ejecutar un bloque de código repetidamente mientras se cumpla una condición.
+
+## 🚀 Estructura del Código
+#### 1. #include <stdio.h>
+  - Esta directiva del preprocesador incluye el archivo de cabecera estándar stdio.h (Standard Input/Output Header), que contiene las declaraciones de funciones para operaciones de entrada y salida como printf() y scanf(). Aunque en este código no se usan directamente, es común incluirlo en programas C para posibilitar futuras operaciones de E/S.
+
 ## 🖥️ Tecnologías Utilizadas:
 
 - Lenguaje programación C
